@@ -18,7 +18,7 @@ function ProductItem(item) {
   const dispatch = useDispatch();
   const cart = useSelector(state => state.cart);
 
-  const { cart } = state;
+  //const { cart } = state;
 
   const addToCart = () => {
     // find the cart item with the matchin id
