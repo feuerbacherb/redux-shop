@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { idbPromise } from '../../utils/helpers';
 import { useQuery } from '@apollo/react-hooks';
-//import { useStoreContext } from '../../utils/GlobalState';
 import { UPDATE_PRODUCTS } from '../../utils/actions';
 
 import ProductItem from "../ProductItem";
@@ -10,7 +9,6 @@ import spinner from "../../assets/spinner.gif"
 import { useDispatch, useSelector } from 'react-redux';
 
 function ProductList() {
-  //const [state, dispatch] = useStoreContext();
   const dispatch = useDispatch();
   const products = useSelector(state => state.products);
 

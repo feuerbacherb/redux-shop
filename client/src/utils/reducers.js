@@ -17,7 +17,6 @@ const initialState = {
     cart: [],
     cartOpen: false
 }
-// import { useReducer } from 'react';
 
 export default function reducer (state = initialState, action) {
     switch(action.type) {
@@ -86,7 +85,3 @@ export default function reducer (state = initialState, action) {
             return state;
     }
 }
-
-// export function useProductReducer(initialState) {
-//     return useReducer(reducer, initialState);
-// };
