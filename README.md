@@ -11,7 +11,7 @@
 * [Contact Me](#contact-me)
 
 Deployed application: https://aqueous-sea-28593.herokuapp.com/
-![Image of Yaktocat](./client/public/images/reduxshop.jpg)
+![](./client/public/images/reduxshop.jpg)
 
 ## Description
 This is a semi-functioning application that is an example of a store front.  After the initial load, state should be maintained for the cart and the images in the local browser if offline.  Once back online, it should update.
