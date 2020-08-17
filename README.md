@@ -10,7 +10,7 @@
 * [Tests](#tests)
 * [Contact Me](#contact-me)
 
-
+Deployed application: https://aqueous-sea-28593.herokuapp.com/
 ![Image of Yaktocat](./client/public/images/reduxshop.jpg)
 
 ## Description
